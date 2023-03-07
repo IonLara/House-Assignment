@@ -28,7 +28,7 @@ class House: CustomStringConvertible {
     }
     
     var area: Double {
-        return Double(Double((size * size)) + Double((Double((size * size)) * (3.squareRoot())) / 4))
+        return Double(Double((size * size)) + Double((Double(((size + 2) * (size + 2))) * (3.squareRoot())) / 4))
     }
     
     func grow() { //If possible increase size by 1 unit, if not, stay the same

@@ -11,7 +11,7 @@ let houses = [
     House(size: -5),
     House(size: 7, border: "^"),
     House(size: 12, border: "W", fill: "o"),
-    House(size: 50, border: "$", fill: "-")
+    House(size: 50, border: "$", fill: "-"),
 ]
 
 for i in 0...3 {
